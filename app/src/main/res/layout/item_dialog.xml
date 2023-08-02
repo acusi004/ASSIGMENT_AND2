@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM SẢN PHẨM"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm:"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edt_tensp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_edt_register"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá bán:"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edt_giasp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_edt_register"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng:"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edt_soluongsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_edt_register"/>
+
+    <Button
+        android:id="@+id/btn_themsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:textColor="#000"
+        app:backgroundTint="@null"
+        android:background="@drawable/item_btn_login"/>
+
+</LinearLayout>
